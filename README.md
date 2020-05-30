@@ -12,4 +12,4 @@ relatively formidable computer adversary that I wrote. There is a way to take
 advantage of how the computer chooses it's moves, but you'll have to read the code
 to figure it out. I suggest playing it first! Good luck
 
-![Othello game] (vid/othello.gif)
+![Othello game] (https://github.com/EricJoraskie/BoardGames/blob/master/vid/othello.gif)
