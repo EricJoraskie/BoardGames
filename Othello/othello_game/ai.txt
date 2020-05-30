@@ -1,0 +1,27 @@
+1. Yes, I attempted to make it better than choosing a random legal move.
+2. Based on my games against it, I think it's much better than random
+    (which is what I had it do while smoothing out game mechanics.)
+
+3. Basically the AI targets key positions on the board,
+    starting with the corners as the highest priority, then edge pieces to bait
+    the corners, then the corners of the middle square, and lastly
+    general edge pieces.
+    It also actively avoids placing disks in positions that allow
+    it's opponent to take the corners and edge pieces.
+    This results in sticking to the middle area as much as possible
+    until the edge is available, and avoiding giving up the corners where possible.
+    It's not bad. For the amount of time I spent on it, I think it's reasonably challenging
+
+4. Of the three people who tried it that weren't me, two lost and one tied, so there is that.
+    It's occasionally smothering and occasionally very beatable, it kind of depends on
+    the pick it makes on the random draw.
+    I was winning maybe 2/3 of the time, but then I made an adjustment while building the test
+    suite for the ai module, and then it crushed me a few games in a row when I wasn't actively
+    making good moves. Its possible that it's pretty solid, especially vs naive players.
+
+5. To improve it, I'd probably make it future looking, and include a few more general
+    tricks, like minimize pieces captured early, and take bait positions once the corners
+    is filled.
+
+Oh, it also talks smack, which I'd probably adjust to be more accurate
+    based on how the game is going.

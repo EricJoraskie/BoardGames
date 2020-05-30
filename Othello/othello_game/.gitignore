@@ -1,0 +1,11 @@
+
+__pycache__
+.pytest_cache
+ai$py.class
+disk$py.class
+game_controller$py.class
+tracker$py.class
+board$py.class
+disk$py.class
+sketch.properties
+throw_away.py
