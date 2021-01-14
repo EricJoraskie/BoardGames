@@ -1,10 +1,8 @@
 # BoardGames
 
-In this repository:
-
 Othello -
 The othello game here was a final project for my first course in the Northeastern
-ALIGN bridge. It turned out to be pretty good. It is a version of the board game
+ALIGN bridge. It turned out quite well. It is a version of the board game
 Othello, which is similar to Reversi, and is run as a Processing Sketch:
 https://processing.org/
 If you download processing and run it, you will have the opportunity to play a
